@@ -42,10 +42,15 @@ a{
 }
 /*end header with navigation*/
 /*end header with navigation*/
+.content{
+  border: orange solid 5px;
+  width: 630px;
 
+}
 /*column large/lead story*/
 .large{
   width: 630px;
+  background-color: red;
 }
 .text-img{
   display: flex;
@@ -56,7 +61,31 @@ a{
 }
 .text-img span{
 }
+.text-content{
+  padding: 30px 0px 30px 0px;
+  width:630px;
+}
+.text-container{
+  padding: 30px 0px 30px 0px;
+  width:630px;
+  background-color: blue;
+}
 /*column large/lead story end*/
 /*column large/lead story end*/
 
 /*column medium story*/
+.medium{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+ margin: 0px 0px 0px 645px;
+}
+
+.story-medium{
+display: flex;
+}
+.content-medium{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px 30px 0px;
+}
