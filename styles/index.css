@@ -44,7 +44,19 @@ a{
 /*end header with navigation*/
 
 /*column large/lead story*/
-.text-img span{
-  border: green solid 1px;
-  margin-top: 20px;
+.large{
+  width: 630px;
 }
+.text-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+.text-img span{
+}
+/*column large/lead story end*/
+/*column large/lead story end*/
+
+/*column medium story*/
