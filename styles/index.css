@@ -11,6 +11,7 @@
   font-weight: bold;
   font-family: verdana;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .logo{
@@ -38,4 +39,12 @@ color: mediumaquamarine;
 }
 a{
   color: black;
+}
+/*end header with navigation*/
+/*end header with navigation*/
+
+/*column large/lead story*/
+.text-img span{
+  border: green solid 1px;
+  margin-top: 20px;
 }
