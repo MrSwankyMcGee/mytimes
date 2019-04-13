@@ -43,12 +43,15 @@ a{
 /*end header with navigation*/
 /*end header with navigation*/
 .content{
+  display: flex; /* ADDED */
   border: orange solid 5px;
-  width: 630px;
+  /*width: 630px; REMOVED, AS 630PX IS THE SIZE OF JUST THE FIRST COLUMN, NOT ALL THREE. */
 
 }
 /*column large/lead story*/
 .large{
+  display: flex;
+  flex-direction: column;
   width: 630px;
   background-color: red;
 }
@@ -78,7 +81,7 @@ a{
   width: 300px;
   display: flex;
   flex-direction: column;
- margin: 0px 0px 0px 645px;
+ /* margin: 0px 0px 0px 645px; REMOVED - SHOULDN'T NEED THIS, AS FLEX CONTAINER WILL PLACE ALL THE COLUMNS NEXT TO ONE ANOTHER */
 }
 
 .story-medium{
