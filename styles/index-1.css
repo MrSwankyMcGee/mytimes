@@ -49,25 +49,30 @@ a{
 /*end header with navigation*/
 .content{
   display: flex; /* ADDED */
-  border: orange solid 5px;
   justify-content: space-between;
   margin-top: 100px;
   /*width: 630px; REMOVED, AS 630PX IS THE SIZE OF JUST THE FIRST COLUMN, NOT ALL THREE. */
 
 }
 /*column large/lead story*/
+
 .large{
   display: flex;
   flex-direction: column;
   width: 630px;
-  border: red solid 2px;
 }
 .text-img{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 300px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-image: url("../resources/images/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 .text-img span{
 }
@@ -78,7 +83,6 @@ a{
 .text-container{
   padding: 30px 0px 30px 0px;
   width:630px;
-  background-color: blue;
 }
 .story{
   display: flex;
@@ -88,12 +92,26 @@ a{
   background-repeat: no-repeat;
   height: 300px;
   width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pop-culture-img-content{
   height: 300px;
   width: 300px;
   background-repeat: no-repeat;
   background-image: url("../resources/images/img-story-3.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*column large/lead story end*/
 /*column large/lead story end*/
@@ -103,7 +121,6 @@ a{
   width: 300px;
   display: flex;
   flex-direction: column;
-  border: black solid 2px;
  /* margin: 0px 0px 0px 645px; REMOVED - SHOULDN'T NEED THIS, AS FLEX CONTAINER WILL PLACE ALL THE COLUMNS NEXT TO ONE ANOTHER */
 }
 
@@ -120,10 +137,21 @@ display: flex;
   flex-direction: column;
 }
 .cat-ego{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url("../resources/images/img-story-1.png");
   height: 300px;
   width: 300px;
   background-repeat: no-repeat;
+}
+.cat-ego span{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+
 }
 /*column medium story end*/
 /*column small story*/
@@ -131,7 +159,6 @@ display: flex;
   width: 240px;
   display:flex;
   flex-direction: column;
-  border: black solid 1px;
   margin-right: 32px;
 }
 .news-bites{
@@ -157,4 +184,10 @@ display: flex;
 }
 .bites span{
   flex-direction: column;
+}
+/*universals*/
+p{
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
